@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>창 제어</title>
+    <meta charset="utf-8" />
+    <script src="master.js"></script>
+  </head>
+  <body>
+    <input type="button" onclick="winopen()" value="open" />
+    <input type="text" onkeypress="winmsg(this.value)" />
+    <input type="button" onclick="winclose()" value="close" />
+    <!-- onKeydown : 키를 눌렀을때 이벤트발생  -->
+    <!-- onKeyup : 키를 눌렀다 놓았을 때 이벤트발생  -->
+    <!-- onKeypress : onkeyup과 onkeydown과 이벤트는 같으나 ASCII값만 인식가능  -->
+  </body>
+</html>
