@@ -14,4 +14,14 @@ window는 전역객체이므로 모든 객체들의 앞에 붙어있으며 생�
 navigator은 웹브라우저의 정보를 보여주고 location은 주소를 보여준다</br>
 </br>
 <h4>day4</h4>
-:</br>
+: 새 창을 제어 할 수 있는 window.open()을 구현</br>
+하지만 onkeypress 부분이 구현이 안되어서 다시 해봐야할듯하다</br>
+요새는 팝업 차단 기능때문에 쓰이지 않는 추세이다</br>
+</br>
+<h4>day5</h4>
+: 자바스크립트를 이용한 제어대상 찾기를 연습한다.
+getElmentsByTagName() : 해당 태그네임을 찾는다 -> 배열을 이용해 특정 태그부분만 선언가능
+getElementsByClassName() : 선언된 클래스들을 찾는다.
+getElementById() : 해당 id의 클래스를 찾는다(id는 중복x)
+querySelector() : '이름' - 태그, '#이름' - id, '.이름' - 클래스 -> 각 하나만을 반환
+querySelectorAll() : 선택한 모두를 선택가능
