@@ -1,0 +1,10 @@
+.dark {
+  background-color: black;
+  color: white;
+}
+.dark #select {
+  color: yellow;
+}
+#select {
+  color: red;
+}
