@@ -25,3 +25,9 @@ getElementsByClassName() : 선언된 클래스들을 찾는다.</br>
 getElementById() : 해당 id의 클래스를 찾는다(id는 중복x)</br>
 querySelector() : '이름' - 태그, '#이름' - id, '.이름' - 클래스 -> 각 하나만을 반환</br>
 querySelectorAll() : 선택한 모두를 선택가능</br>
+<h4>day6</h4>
+: JQuery의 활용</br>
+script src = "https://code.jquery.com/jquery-3.3.1.min.js"을 이용해 사용</br>
+$('body').prepend('<h1>Hello world</h1>');</br>
+제어대상은 $('대상').css('color',''); 앞의 대상을 찾아 변환</br>
+Document Object Model 공부 https://web.stanford.edu/class/cs98si/slides/the-document-object-model.html </br>
