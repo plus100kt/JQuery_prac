@@ -6,3 +6,20 @@ $(document).ready(function($){
   $('.active').css('color', 'blue');
   $('#active').css('color', 'skyblue');
 });
+
+//console.group의 이해
+window.onload = function() {
+  console.group('before');
+  var lis = document.getElementsByTagName('li');
+  for(var i = 0; i < lis.length; i++) {
+    console.log(lis[i]);
+  }
+  console.groupEnd();
+  console.group('after');
+  //lis[1].parentNode.removeChiled.lis[1]는 lis[1]의 삭제를 의미
+  lis[1].parentNode.removeChild(lis[1]);
+  for(i = 0; i < lis.length; i++) {
+    console.log(lis[i]);
+  }
+  console.groupEnd();
+};
