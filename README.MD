@@ -39,9 +39,15 @@ Document Object Model 공부 https://web.stanford.edu/class/cs98si/slides/the-do
 consolegroup의 이해와 해당태그 삭제해주는 코드 공</br>
 
 <h4>day7</h4>
-: jQuery의 식별자 API
+: JavaScript의 식별자 API
 classList : 클래스들을 관리 [0]~... 을 이용해 하나하나 지정가능</br>
 element.classList.add() : 원하는 class를 추가한다.</br>
 element.classList.remove() : 원하는 class를 제거한다.</br>
 element.classList.toggle() : class내에 대상이 존재하지 않으면 추가 존재한다면 제거.</br>
 list[i].textContent : 내용 조회에 이용</br>
+
+<h4>day8</h4>
+: JavaScript의 속성 API (master.js)
+속성방식과 property방식 알아보기</br>
+두 방식 구별 : https://blog.naver.com/fb_lua/221482035978 </br>
+: jQuery의 속성API (jQueryMaster.js)
