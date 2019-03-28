@@ -50,4 +50,11 @@ list[i].textContent : 내용 조회에 이용</br>
 : JavaScript의 속성 API (master.js)
 속성방식과 property방식 알아보기</br>
 두 방식 구별 : https://blog.naver.com/fb_lua/221482035978 </br>
-: jQuery의 속성API (jQueryMaster.js)
+: jQuery의 속성API (jQueryMaster.js) </br>
+jquery를 이용해지면 더 간단해지는 속성 API </br>
+
+<h4>day9</h4>
+: jquery 조회범위 제한 </br>
+$('자식', '부모'); </br>
+= $('부모 자식');  </br>
+= $('부모').find('자식'); </br>
